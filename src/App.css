@@ -85,3 +85,27 @@ li {
   margin: 0 10px;
   font-weight: bold;
 }
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.project-card h4 {
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: #007bff;
+  text-decoration: none;
+}
